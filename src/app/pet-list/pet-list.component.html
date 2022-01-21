@@ -1,0 +1,16 @@
+<section id="pet_list" class="list">
+	<h2>Pets para adoção</h2>
+
+	<article *ngFor="let pet of pets">
+		<a href="{{'/pet/' + pet.id}}" title="{{pet.nome}}" class="{{'list_' + (pet.tipo == 'CACHORRO' ? 'dog' : 'cat')}}">
+			<img src="{{pet.imagem}}" alt="{{pet.nome}}" />
+			<div>
+				<img src="{{'/assets/images/' + (pet.sexo == 'MASCULINO' ? 'male' : 'female') + '.png'}}" />
+				<h1>{{pet.nome}}</h1>
+				<small>{{pet.dataNascimento}}</small>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, exercitationem.</p>
+			</div>
+		</a>
+	</article>
+
+</section>
