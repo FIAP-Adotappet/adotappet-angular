@@ -1,27 +1,83 @@
-# AdotappetAngular
+# Adotappet
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+<img src="public/images/logo.png" alt="logo adotappet">
 
-## Development server
+> Projeto com o intuito de facilitar a adoção de pets disponíveis para serem adotados. Simples, fácil e intuitivo, você vai encontrar o seu próximo companheiro de quatro patas no nosso site!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 💻 Pré-requisitos
 
-## Code scaffolding
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Você instalou a versão mais recente estável (LTS) de [`Node`](https://nodejs.org/en/download/)
 
-## Build
+## 🚀 Subindo Adotappet
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para rodar o Adotappet localmente, siga estas etapas:
 
-## Running unit tests
+```
+Abra o diretório do projeto em um terminal
+Rode o seguinte comando 'npm install && ng serve'
+Pronto, o site abrirá em localhost:4200 e estará pronto para uso
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ☕ Usando Adotappet
 
-## Running end-to-end tests
+Para usar Adotappet, siga estas etapas:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+Escolha seu pet da lista
+Verifique os detalhes do pet escolhido
+```
 
-## Further help
+Nas próximas atualizações será possível realizar login e efetivamente abrir um pedido de adoção, fiquem atentos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🧪 Testar a aplicação
+
+Para executar os testes da aplicação siga esses passos
+
+```
+Em um terminal, vá até a pasta do projeto e execute o comando 'ng test'
+```
+
+## 🤝 Colaboradores
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/44610177?s=400&u=a295c0872f7b116a479c24b2bf9d4ebe39d8057c&v=4" width="100px;" alt="Foto do Felipe Ayoub no GitHub"/><br>
+        <sub>
+          <b>Felipe Ayoub Zanini</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/45915154?v=4" width="100px;" alt="Foto do Caique Porto no GitHub"/><br>
+        <sub>
+          <b>Caique Porto</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/38897172?v=4" width="100px;" alt="Foto do Willian Parente no GitHub"/><br>
+        <sub>
+          <b>Willian Parente</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/7451131?v=4" width="100px;" alt="Foto do Bruno Moraes no GitHub"/><br>
+        <sub>
+          <b>Bruno Moraes</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+[⬆ Voltar ao topo](#Adotappet)<br>
