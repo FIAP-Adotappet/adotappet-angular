@@ -1,6 +1,6 @@
 # Adotappet
 
-<img src="public/images/logo.png" alt="logo adotappet">
+<img src="src/assets/images/logo.png" alt="logo adotappet">
 
 > Projeto com o intuito de facilitar a adoção de pets disponíveis para serem adotados. Simples, fácil e intuitivo, você vai encontrar o seu próximo companheiro de quatro patas no nosso site!
 
