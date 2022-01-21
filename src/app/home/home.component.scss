@@ -1,0 +1,102 @@
+@import '../../styles/variables';
+
+// Home banner and filters
+.banner {
+	display: inline-block;
+	padding: 0 10%;
+
+	img {
+		float: right;
+		transition: width .3s ease;
+		width: 55%;
+	}
+
+	&_info {
+		margin-top: 90px;
+		display: inline-block;
+		transition: all .3s ease;
+		width: 40%;
+
+		span {
+			font-weight: 500;
+		}
+
+		h1 {
+			color: $dark;
+			font-size: 75px;
+			font-weight: 500;
+			line-height: 70px;
+			margin: 10px 0 45px;
+			transition: all .3s ease;
+		}
+	}
+
+	&_filters {
+		display: inline-block;
+		margin-top: 60px;
+
+		a {
+			background: #fb7e2c url('/assets/images/filtro_cachorro.png') no-repeat 30px center;
+			background-size: 25px;
+			padding: 12px 45px 14px 66px;
+
+			+ a {
+				background-image: url('/assets/images/filtro_gato.png');
+				margin-left: 30px;
+			}
+
+			img {
+				display: block;
+				height: 30px;
+				width: auto;
+
+			}
+		}
+	}
+
+	@media (max-width: 1200px) {
+		img {
+			width: 40%;
+		}
+
+		&_info {
+			margin-top: 0;
+
+			h1 {
+				font-size: 35px;
+				line-height: 32px;
+			}
+		}
+	}
+
+	@media (max-width: 860px) {
+		img {
+			display: block;
+			float: none;
+			margin: 0 auto;
+		}
+
+		&_info {
+			width: 100%;
+
+			h1 {
+				margin-bottom: 15px;
+
+				br {
+					display: none;
+				}
+			}
+		}
+
+		&_filters {
+			left: 50%;
+			margin-top: 45px;
+			position: relative;
+			transform: translateX(-50%);
+
+			a + a {
+				margin-left: 15px;
+			}
+		}
+	}
+}
