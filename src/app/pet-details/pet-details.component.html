@@ -1,0 +1,17 @@
+<section *ngIf="pet" id="detail" class="highlight">
+	<img src="{{pet.imagem}}" alt="{{pet.nome}}" />
+	<div>
+		<img src="{{'/assets/images/' + (pet.sexo == 'MASCULINO' ? 'male' : 'female') + '.png'}}" />
+		<h1>{{pet.nome}}</h1>
+		<small>{{pet.dataNascimento}}</small>
+
+		<p><strong>Porte: </strong>{{pet.porte}}</p>
+		<p><strong>Raça: </strong>{{pet.raca}}</p>
+		<br />
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur est et tempore. Doloribus cupiditate laudantium obcaecati accusantium accusamus, possimus similique quia blanditiis deleniti qui unde ullam facilis, ad repellat iste, culpa nesciunt, minus. Eaque, omnis, iure! Eveniet culpa at, nostrum reprehenderit. Aliquam dolorem delectus ratione labore dignissimos, mollitia dolore, voluptates.</p>
+
+		<a id="bt_action" class="bt" href="#" title="Tenho interesse em adotar">{{'Tenho interesse n' + (pet.sexo == 'MASCULINO' ? 'o ' : 'a ') + pet.nome + '!'}}</a>
+	</div>
+</section>
+
+<a id="bt_back" class="bt_back bt bt_brown" href="/" title="Visualizar lista">Voltar e visualizar outros pets</a>
