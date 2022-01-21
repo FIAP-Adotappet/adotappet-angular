@@ -16,7 +16,7 @@ Para rodar o Adotappet localmente, siga estas etapas:
 
 ```
 Abra o diretório do projeto em um terminal
-Rode o seguinte comando 'npm install && ng serve'
+Rode o seguinte comando 'npm install && npm serve'
 Pronto, o site abrirá em localhost:4200 e estará pronto para uso
 ```
 
@@ -36,7 +36,7 @@ Nas próximas atualizações será possível realizar login e efetivamente abrir
 Para executar os testes da aplicação siga esses passos
 
 ```
-Em um terminal, vá até a pasta do projeto e execute o comando 'ng test'
+Em um terminal, vá até a pasta do projeto e execute o comando 'npm test'
 ```
 
 ## 🤝 Colaboradores
